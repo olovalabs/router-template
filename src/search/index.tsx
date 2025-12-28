@@ -51,10 +51,10 @@ export default function Search() {
             <h3 className="card-title mb-4">Current Parameters</h3>
             <pre className="p-4 rounded-lg" style={{ backgroundColor: 'hsl(var(--muted))' }}>
               <code>{`{
-              q: "${query}",
-              page: "${page}",
-              sort: "${sort}"
-            }`}</code>
+            q: "${query}",
+            page: "${page}",
+            sort: "${sort}"
+          }`}</code>
             </pre>
           </div>
 
