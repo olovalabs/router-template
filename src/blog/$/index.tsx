@@ -36,9 +36,9 @@ Slug: "${slug}"`}</code>
           <div className="card">
             <h3 className="card-title mb-4">Try Different Paths</h3>
             <div className="flex flex-col gap-2">
-              <a href="/blog/hello-world" className="btn btn-outline w-full">/blog/hello-world</a>
-              <a href="/blog/2024/01/my-post" className="btn btn-outline w-full">/blog/2024/01/my-post</a>
-              <a href="/blog/category/tech/article" className="btn btn-outline w-full">/blog/category/tech/article</a>
+              <Link href="/blog/hello-world" className="btn btn-outline w-full">/blog/hello-world</Link>
+              <Link href="/blog/2024/01/my-post" className="btn btn-outline w-full">/blog/2024/01/my-post</Link>
+              <Link href="/blog/category/tech/article" className="btn btn-outline w-full">/blog/category/tech/article</Link>
             </div>
           </div>
         </div>

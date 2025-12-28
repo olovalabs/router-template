@@ -22,9 +22,9 @@ export default function Users() {
 
           <div className="flex flex-col gap-3">
             {users.map((user) => (
-              <a
+              <Link
                 key={user.id}
-                href={`/users/${user.id}`}
+                href={`/users/${user.id}` as "/users/:id"}
                 className="card flex justify-between items-center"
               >
                 <div>
@@ -32,7 +32,7 @@ export default function Users() {
                   <p className="text-sm text-muted">{user.role}</p>
                 </div>
                 <span className="badge">ID: {user.id}</span>
-              </a>
+              </Link>
             ))}
           </div>
         </div>
