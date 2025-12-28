@@ -4,14 +4,14 @@ A modern file-based routing starter template for **React 19** + **Vite** applica
 
 ## Features
 
-- ** File-Based Routing** - Create routes by adding folders and files
-- ** Vite Powered** - Lightning-fast development and build times
-- ** Type-Safe** - Full TypeScript support with auto-generated route types
-- ** Dynamic Routes** - Support for dynamic parameters (`/users/:id`)
-- ** Catch-All Routes** - Handle wildcard paths (`/blog/*`)
-- ** Route Groups** - Organize routes without affecting URLs (`(auth)`)
-- ** Search Params** - Built-in query parameter handling
-- ** 404 Pages** - Custom not found page support
+- **File-Based Routing** - Create routes by adding folders and files
+- **Vite Powered** - Lightning-fast development and build times
+- **Type-Safe** - Full TypeScript support with auto-generated route types
+- **Dynamic Routes** - Support for dynamic parameters (`/users/:id`)
+- **Catch-All Routes** - Handle wildcard paths (`/blog/*`)
+- **Route Groups** - Organize routes without affecting URLs (`(auth)`)
+- **Search Params** - Built-in query parameter handling
+- **404 Pages** - Custom not found page support
 
 ## Getting Started
 
@@ -80,7 +80,7 @@ src/
 | `/login`        | Route Group   | Login page (in `(auth)` group) |
 | `/search?q=...` | Search Params | Search with query parameters   |
 
-## 🔧 Core Imports
+## Core Imports
 
 ```tsx
 import {
@@ -131,4 +131,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Built with ❤️ using [Olova Router](https://www.npmjs.com/package/olova-router)
+Built with [Olova Router](https://www.npmjs.com/package/olova-router)
